@@ -1,0 +1,115 @@
+* {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+}
+
+html {
+      scroll-behavior: smooth; /* Deixa a interação com os links da página mais fluido */
+}
+
+body {
+      box-sizing: border-box;
+      background-color: #060826;
+}
+
+header {
+      background-color: #060826;
+      font-style:normal;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.418);
+}
+
+header h1 {
+      color: white;
+      padding: 30px;
+}
+
+#menu {
+      padding: 30px;
+}
+
+#menu li {
+      font-size: 23px;
+      display: inline; /* Deixa os li do menu inline (Na mesma linha) */
+      padding: 10px;
+}
+
+#menu ul li a{
+      color: white;
+      text-decoration: none;
+}
+
+#menu ul li a:hover {  /* Estilização para quando passar o mouse em cima dos links */
+      background-color: #2F52E0;
+      transition: 1s;
+      border-radius: 5px;
+}
+
+main h2 {
+      text-align: center;
+      padding-top: 30px;
+      padding: 20;
+      font-size: 3em;
+      color: white;
+}
+
+main p {
+      padding-bottom: 50px;
+      text-align: center;
+      width: 100%;
+      color: #C0C0C0;
+}
+
+p a {
+      font-size: 25px;
+      color: #C42847;
+      text-decoration: none;
+}
+
+#img1 {
+      display: flex;
+      justify-content: center;
+}
+
+#img2 {
+      display: flex;
+      justify-content: center;
+}
+
+#retrato {
+      width: 400px;
+      height: 400px;
+}
+
+#controles {
+      width: 400px;
+      height: 400px;
+
+}
+
+#portfolioArt  ul {
+      display: block;
+}
+
+#portfolioArt  ul li {
+      padding: 0;
+      color: #C0C0C0;
+      text-align: center;
+}
+
+#portfolioArt  ul a {
+      color: #C42847;
+}
+
+footer {
+      display: block;
+      color: white;
+}
+
+footer form{
+      justify-content: center;
+      text-align: center;
+}
